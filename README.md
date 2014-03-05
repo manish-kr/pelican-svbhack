@@ -38,6 +38,9 @@ Supports a number of common global variables but patches are welcomed if you nee
 
 - `INTERNET_DEFENSE_LEAGUE` set this to `True` if you want to enable the [Internet Defense League](http://internetdefenseleague.org) code
 
+- `PIWIK_URL` your Piwik server - without the http:// at the *beginning*.
+- `PIWIK_SITE_ID` ID of the monitored website.
+
 When developing locally, you may want to set the following variable: `SITEURL = http://localhost:8000`
 
 ## MODIFICATIONS
